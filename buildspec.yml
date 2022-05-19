@@ -18,6 +18,9 @@ phases:
   post_build:
     commands:
       - echo "we are in the post_build phase"
-      
-      
+    
+  artifacts:
+    files:
+      - '**.*'
+      - name: demo-codebuild      
       
