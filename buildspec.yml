@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       nodejs: 10
     commands:
-      - printenv
+      #- printenv
       - echo "installing something"
   pre_build:
     commands:
@@ -23,4 +23,5 @@ phases:
     files:
       - '**.*'
       - name: demo-codebuild      
+      
       
