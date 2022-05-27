@@ -1,5 +1,8 @@
 version: 0.0
-resources: 
-  ecs-service-specifications
-hooks: 
-  deployment-lifecycle-event-mappings
+os: linux
+#files:
+  #source-destination-files-mappings
+#permissions:
+  #permissions-specifications
+#hooks:
+  #deployment-lifecycle-event-mappings
